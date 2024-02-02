@@ -1,13 +1,13 @@
 .container {
-    display: flex;
-    width: 180px;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    height: 30px;
-  }
+  display: flex;
+  width: 180px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  height: 30px;
+}
 
-  .select {
-      height: 100%;
-      width: 100%;
-  }
+.select {
+  height: 100%;
+  width: 100%;
+}

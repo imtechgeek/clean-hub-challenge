@@ -1,3 +1,5 @@
+import { describe, it } from '@jest/globals';
+
 import { isPartOfPortfolio } from './checkPortfolio';
 
 describe('isPartOfPortfolio', () => {

@@ -1,21 +1,21 @@
 .text {
-    font-size: 14px;
-    line-height: 22px;
-    text-align: left;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .locationText {
-    composes: text;
-    padding: 0;
-    margin: 10px 0;
+  composes: text;
+  padding: 0;
+  margin: 10px 0;
 }
 
 .plasticAmountText {
-    composes: locationText;
-    font-size: 16px;
-    font-weight: 700;
+  composes: locationText;
+  font-size: 16px;
+  font-weight: 700;
 }
