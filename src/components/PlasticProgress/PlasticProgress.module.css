@@ -1,0 +1,24 @@
+.progressContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .progressLabel {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-black);
+  }
+  
+  .progressBar {
+    width: 200px;
+    height: 15px;
+    border: 1px solid;
+    transition: width 3s;
+  }
+  
+  progress[value]::-webkit-progress-value {
+    transition: width 0.5s;
+    background: #86B2DD;
+  }

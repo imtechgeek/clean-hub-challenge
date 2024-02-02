@@ -1,0 +1,8 @@
+
+.loader {
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    background: url('../../assets/loading.svg') no-repeat center;
+}

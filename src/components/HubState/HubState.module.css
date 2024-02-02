@@ -1,0 +1,19 @@
+.active {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
+    right: 10px;
+    height: 40px;
+    width: 60px;
+    background-color: var(--color-light-green);
+    composes: text from '../HubInfo/HubInfo.module.css';
+    color: var(--color-green);
+}
+
+.demo {
+    composes: active;
+    background-color: var(--color-light-blue);
+    color: var(--color-blue);
+}
